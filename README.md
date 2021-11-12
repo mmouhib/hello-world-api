@@ -31,3 +31,5 @@ Http.onreadystatechange = (e) => {
 	"release year": "1995"
 },
 ```
+
+![©](https://miro.medium.com/max/700/1*G6MI9xd0POoyNuQdda69NA.jpeg)
