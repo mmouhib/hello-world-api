@@ -1,0 +1,37 @@
+python
+java
+C#
+F#
+C
+C++
+objective-C
+fortran
+pascal (delphi)
+cobol
+asm
+php
+rust
+visual basic
+typescript
+javascript
+PL/SQL
+R
+ruby
+swift
+matlab
+golang (go)
+prolog
+perl
+julia
+ada
+lisp
+dart
+scala
+kotlin
+lua
+clojure
+bash
+Powershell
+Smalltalk
+
+https://miro.medium.com/max/700/1*G6MI9xd0POoyNuQdda69NA.jpeg

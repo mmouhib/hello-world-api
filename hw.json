@@ -1,0 +1,233 @@
+{
+	"C": {
+		"hw": [
+			"#include <stdio.h>",
+			"int main() {",
+			"   printf(\"F*ck Pointers!\");",
+			"   return 0;",
+			"}"
+		]
+	},
+
+	"Python": {
+		"hw": ["print('hello world')"]
+	},
+
+	"Java": {
+		"hw": [
+			"class HelloWorld {",
+			"  static public void main( String args[] ) {",
+			"    System.out.println( \"Hello World!\");",
+			"  }",
+			"}"
+		]
+	},
+
+	"C#": {
+		"hw": [
+			"class HelloWorld",
+			"{",
+			"    static void Main()",
+			"    {",
+			"        System.Console.WriteLine(\"Hello, World!\");",
+			"    }",
+			"}"
+		]
+	},
+
+	"F#": {
+		"hw": ["printf \"Hello World!\n\""]
+	},
+
+	"C++": {
+		"hw": [
+			"#include <iostream.h>",
+			"main()",
+			"{",
+			"    cout << \"Hello World!\" << endl;",
+			"    return 0;",
+			"}"
+		]
+	},
+
+	"Objective-C": {
+		"hw": [
+			"#import <Foundation/Foundation.h>",
+			"int main() {",
+			"    @autoreleasepool {",
+			"        NSLog(@\"Hello, World!\");",
+			"    }",
+			"}"
+		]
+	},
+
+	"Fortran": {
+		"hw": [
+			"PROGRAM HelloWorld",
+			"     WRITE(*,*)  \"Hello World!\"",
+			"END PROGRAM"
+		]
+	},
+
+	"Pascal": {
+		"hw": [
+			"program HelloWorld(output);",
+			"begin",
+			"  WriteLn('Hello World!');",
+			"end."
+		]
+	},
+
+	"Cobol": {
+		"hw": [
+			"IDENTIFICATION DIVISION.",
+			"PROGRAM-ID. HELLO.",
+			"ENVIRONMENT DIVISION.",
+			"DATA DIVISION.",
+			"PROCEDURE DIVISION.",
+			"MAIN SECTION.",
+			"DISPLAY \"Hello World!\"",
+			"STOP RUN."
+		]
+	},
+
+	"Assembly 1949": {
+		"hw": [
+			"bdos    equ    0005H    ; BDOS entry point",
+			"start:  mvi    c,9      ; BDOS function: output string",
+			"        lxi    d,msg$   ; address of msg",
+			"        call   bdos",
+			"        ret             ; return to CCP",
+			"msg$:   db    'Hello, world!$'",
+			"end     start"
+		]
+	},
+
+	"Rust": {
+		"hw": ["fn main() {", "    println!(\"Hello World!\");", "}"]
+	},
+
+	"PHP": {
+		"hw": ["echo 'Hello World!';"]
+	},
+
+	"Visual Basic": {
+		"hw": [
+			"' Hello World in VBScript (Windows Scripting Host)",
+			"msgbox \"Hello, World!\""
+		]
+	},
+
+	"Javascript": {
+		"hw": ["alert('Hello world!');"]
+	},
+
+	"Typescript": {
+		"hw": ["alert('Hello world!');"]
+	},
+
+	"PL/SQL": {
+		"hw": ["BEGIN", "dbms_output.put_line (‘Hello World..');", "END;"]
+	},
+
+	"R": {
+		"hw": ["cat(\"Hello world\n\")"]
+	},
+
+	"Ruby": {
+		"hw": ["puts \"Hello World!\""]
+	},
+
+	"Swift": {
+		"hw": ["#println(\"hello world\")"]
+	},
+
+	"Matlab": {
+		"hw": ["disp('Hello World');"]
+	},
+
+	"Golang": {
+		"hw": [
+			"package main",
+			"import \"fmt\"",
+			"func main() {",
+			" fmt.Printf(\"Hello World\n\")",
+			"}"
+		]
+	},
+
+	"Prolog": {
+		"hw": ["hello :- display('Hello World!') , nl ."]
+	},
+
+	"Perl": {
+		"hw": ["print \"Hello World!\n\";"]
+	},
+
+	"Julia": {
+		"hw": ["println( \"Hello World!\");"]
+	},
+
+	"Ada": {
+		"hw": [
+			"with Text_IO;",
+			"procedure Hello_World is",
+			"",
+			"begin",
+			"  Text_IO.Put_Line(\"Hello World!\");",
+			"end Hello_World;"
+		]
+	},
+
+	"Lisp": {
+		"hw": [
+			"CL-USER> (defun hello ()",
+			"           (format t \"Hello, World!~%\"))",
+			"HELLO",
+			"CL-USER> (hello)",
+			"Hello, World!",
+			"NIL",
+			"CL-USER> "
+		]
+	},
+
+	"Dart": {
+		"hw": ["main() {", "    print('Hello world!');", "}"]
+	},
+
+	"Scala": {
+		"hw": [
+			"object HelloWorld extends App {",
+			"    println(\"Hello world!\")",
+			"  }"
+		]
+	},
+
+	"Kotlin": {
+		"hw": [
+			"fun main(args : Array<String>) {",
+			"    println(\"Hello, world!\")",
+			"}"
+		]
+	},
+
+	"Lua": {
+		"hw": ["print \"Hello world\""]
+	},
+
+	"Clojure": {
+		"hw": ["(defn hello []", "(println \"Hello world!\"))", "(hello)"]
+	},
+
+	"Bash": {
+		"hw": ["echo \"Hello World\""]
+	},
+
+	"Powershell": {
+		"hw": ["Write-Host 'Hello, World!'"]
+	},
+
+	"Smalltalk": {
+		"hw": ["Transcript show: 'Hello World!'."]
+	}
+}
