@@ -1,18 +1,12 @@
 {
 	"C": {
-		"hw": [
-			"#include <stdio.h>",
-			"int main() {",
-			"   printf(\"F*ck Pointers!\");",
-			"   return 0;",
-			"}"
-		],
-		"release year": "1972"
+		"hw": ["#include <stdio.h>", "int main() {", "   printf(\"F*ck Pointers!\");", "   return 0;", "}"],
+		"release_year": "1972"
 	},
 
 	"Python": {
 		"hw": ["print('hello world')"],
-		"release year": "1991"
+		"release_year": "1991"
 	},
 
 	"Java": {
@@ -23,7 +17,7 @@
 			"  }",
 			"}"
 		],
-		"release year": "1995"
+		"release_year": "1995"
 	},
 
 	"C#": {
@@ -36,24 +30,17 @@
 			"    }",
 			"}"
 		],
-		"release year": "2000"
+		"release_year": "2000"
 	},
 
 	"F#": {
 		"hw": ["printf \"Hello World!\n\""],
-		"release year": "2005"
+		"release_year": "2005"
 	},
 
 	"C++": {
-		"hw": [
-			"#include <iostream.h>",
-			"main()",
-			"{",
-			"    cout << \"Hello World!\" << endl;",
-			"    return 0;",
-			"}"
-		],
-		"release year": "1985"
+		"hw": ["#include <iostream.h>", "main()", "{", "    cout << \"Hello World!\" << endl;", "    return 0;", "}"],
+		"release_year": "1985"
 	},
 
 	"Objective-C": {
@@ -65,26 +52,17 @@
 			"    }",
 			"}"
 		],
-		"release year": "1984"
+		"release_year": "1984"
 	},
 
 	"Fortran": {
-		"hw": [
-			"PROGRAM HelloWorld",
-			"     WRITE(*,*)  \"Hello World!\"",
-			"END PROGRAM"
-		],
-		"release year": "1954"
+		"hw": ["PROGRAM HelloWorld", "     WRITE(*,*)  \"Hello World!\"", "END PROGRAM"],
+		"release_year": "1954"
 	},
 
 	"Pascal": {
-		"hw": [
-			"program HelloWorld(output);",
-			"begin",
-			"  WriteLn('Hello World!');",
-			"end."
-		],
-		"release year": "1970"
+		"hw": ["program HelloWorld(output);", "begin", "  WriteLn('Hello World!');", "end."],
+		"release_year": "1970"
 	},
 
 	"Cobol": {
@@ -98,7 +76,7 @@
 			"DISPLAY \"Hello World!\"",
 			"STOP RUN."
 		],
-		"release year": "1959"
+		"release_year": "1959"
 	},
 
 	"Assembly 1949": {
@@ -111,86 +89,77 @@
 			"msg$:   db    'Hello, world!$'",
 			"end     start"
 		],
-		"release year": "1949"
+		"release_year": "1949"
 	},
 
 	"Rust": {
 		"hw": ["fn main() {", "    println!(\"Hello World!\");", "}"],
-		"release year": "2012"
+		"release_year": "2012"
 	},
 
 	"PHP": {
 		"hw": ["echo 'Hello World!';"],
-		"release year": "1995"
+		"release_year": "1995"
 	},
 
 	"Visual Basic": {
-		"hw": [
-			"' Hello World in VBScript (Windows Scripting Host)",
-			"msgbox \"Hello, World!\""
-		],
-		"release year": "1991"
+		"hw": ["' Hello World in VBScript (Windows Scripting Host)", "msgbox \"Hello, World!\""],
+		"release_year": "1991"
 	},
 
 	"Javascript": {
 		"hw": ["alert('Hello world!');"],
-		"release year": "1995"
+		"release_year": "1995"
 	},
 
 	"Typescript": {
 		"hw": ["alert('Hello world!');"],
-		"release year": "2012"
+		"release_year": "2012"
 	},
 
 	"PL/SQL": {
 		"hw": ["BEGIN", "dbms_output.put_line (‘Hello World..');", "END;"],
-		"release year": "1998"
+		"release_year": "1998"
 	},
 
 	"R": {
 		"hw": ["cat(\"Hello world\n\")"],
-		"release year": "2000"
+		"release_year": "2000"
 	},
 
 	"Ruby": {
 		"hw": ["puts \"Hello World!\""],
-		"release year": "1995"
+		"release_year": "1995"
 	},
 
 	"Swift": {
 		"hw": ["#println(\"hello world\")"],
-		"release year": "2014"
+		"release_year": "2014"
 	},
 
 	"Matlab": {
 		"hw": ["disp('Hello World');"],
-		"release year": "1984"
+		"release_year": "1984"
 	},
 
 	"Golang": {
-		"hw": [
-			"package main",
-			"import \"fmt\"",
-			"func main() {",
-			" fmt.Printf(\"Hello World\n\")",
-			"}"
-		],
-		"release year": "2009"
+		"hw": ["package main", "import \"fmt\"", "func main() {", " fmt.Printf(\"Hello World\n\")", "}"],
+		"release_year": "2009"
 	},
 
 	"Prolog": {
 		"hw": ["hello :- display('Hello World!') , nl ."],
-		"release year": "1972"
+		"release_year": "1972"
 	},
 
 	"Perl": {
 		"hw": ["print \"Hello World!\n\";"],
-		"release year": "1988"
+		"release_year": "1988"
 	},
 
 	"Julia": {
 		"hw": ["println( \"Hello World!\");"],
-		"release year": "2012"
+		"release_year": "2012"
 	},
 
 	"Ada": {
@@ -202,7 +171,7 @@
 			"  Text_IO.Put_Line(\"Hello World!\");",
 			"end Hello_World;"
 		],
-		"release year": "1980"
+		"release_year": "1980"
 	},
 
 	"Lisp": {
@@ -215,54 +184,46 @@
 			"NIL",
 			"CL-USER> "
 		],
-		"release year": "1958"
+		"release_year": "1958"
 	},
 
 	"Dart": {
 		"hw": ["main() {", "    print('Hello world!');", "}"],
-		"release year": "2011"
+		"release_year": "2011"
 	},
 
 	"Scala": {
-		"hw": [
-			"object HelloWorld extends App {",
-			"    println(\"Hello world!\")",
-			"  }"
-		],
-		"release year": "2004"
+		"hw": ["object HelloWorld extends App {", "    println(\"Hello world!\")", "  }"],
+		"release_year": "2004"
 	},
 
 	"Kotlin": {
-		"hw": [
-			"fun main(args : Array<String>) {",
-			"    println(\"Hello, world!\")",
-			"}"
-		],
-		"release year": "2016"
+		"hw": ["fun main(args : Array<String>) {", "    println(\"Hello, world!\")", "}"],
+		"release_year": "2016"
 	},
 
 	"Lua": {
 		"hw": ["print \"Hello world\""],
-		"release year": "1993"
+		"release_year": "1993"
 	},
 
 	"Clojure": {
 		"hw": ["(defn hello []", "(println \"Hello world!\"))", "(hello)"],
-		"release year": "2007"
+		"release_year": "2007"
 	},
 
 	"Bash": {
 		"hw": ["echo \"Hello World\""],
-		"release year": "1989"
+		"release_year": "1989"
 	},
 
 	"Powershell": {
 		"hw": ["Write-Host 'Hello, World!'"],
-		"release year": "2006"
+		"release_year": "2006"
 	},
 
 	"Smalltalk": {
 		"hw": ["Transcript show: 'Hello World!'."],
-		"release year": "1969"
+		"release_year": "1969"
 	}
 }
