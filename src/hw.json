@@ -14,7 +14,7 @@
 		},
 
 		{
-			"lang": "",
+			"lang": "Java",
 			"hw": [
 				"class HelloWorld {",
 				"  static public void main( String args[] ) {",
