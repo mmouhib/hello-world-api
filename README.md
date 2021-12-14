@@ -20,16 +20,19 @@ Http.onreadystatechange = (e) => {
 
 #### Sample Response
 ```json
-"Java": {
+{
+	"lang": "C#",
 	"hw": [
-		"class HelloWorld {",
-		"  static public void main( String args[] ) {",
-		"    System.out.println( \"Hello World!\");",
-		"  }",
+		"class HelloWorld",
+		"{",
+		"    static void Main()",
+		"    {",
+		"        System.Console.WriteLine(\"Hello, World!\");",
+		"    }",
 		"}"
 	],
-	"release year": "1995"
-},
+	"release_year": "2000"
+}
 ```
 
 ![©](https://miro.medium.com/max/700/1*G6MI9xd0POoyNuQdda69NA.jpeg)
